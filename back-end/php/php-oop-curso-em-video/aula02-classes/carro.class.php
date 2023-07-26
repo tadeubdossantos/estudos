@@ -33,8 +33,8 @@ class Carro{
     }
     
     function viajar($km){
-        if ($km > 0){
-            $km
+        if ($km > 0) {
+            
         }
     }
     
