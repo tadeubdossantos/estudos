@@ -1,0 +1,18 @@
+/*
+    Links
+    - Não é elemento de bloco
+
+*/
+
+.decoration{
+    text-decoration: none;      /* Retira o underline */
+}
+
+.visitado:visited{              /* Regra aplicada para links já visitados anteriormente */
+    color:orange;             	/* Cor da fonte do link */
+
+}
+
+.estilo-hover:hover{			/* Regra aplicado ao evento de passar o mouse por cima */
+    background-color: #1292ae;  /* Cor de fundo do parágrafo */
+}

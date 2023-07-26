@@ -1,0 +1,29 @@
+<IfModule mod_rewrite.c>
+# O caracter cerquilha indica comentário
+
+# Bloqueando a listagem dos diretórios sem um documento padrão (index.html, index.php, default.asp e etc)
+Options -Indexes
+
+# Habilita o Mod-Rewrite, liga o modo módulo que lê as urls
+RewriteEngine On
+
+# Criamos uma condição para que os arquivos sejam ignorados nas regras abaixo ou seja, quando o arquivo não existir
+#RewriteCond %{REQUEST_FILENAME} !-f
+
+# Criamos um condição para que os diretórios sejam ignorados nas regras abaixo
+RewriteCond %{REQUESTE_FILENAME} !-d
+
+# Definimos onde começa com base nas regras
+RewriteBase /
+
+# Ignoramos o uso da barra no final
+RewriteRule ^(.+)\/$ $1 [R,L]
+
+# Criamos regras fixas
+RewriteRule ^home$ index.php?rota=home [QSA,L,NC]
+RewriteRule ^institucional$ index.php?rota=institucional [QSA,L,NC]
+
+# Criação de regras dinâmicas
+RewriteRule ^loja\/([0-9A-z_-]+)$ loja/produtos.php?rota=$1 [QSA,L,NC]
+RewriteRule ^loja\/([0-9A-z_-]+)\/([0-9A-z_-]+)$ loja/produtos.php?rota=$1&item=$1 [QSA,L,NC]
+

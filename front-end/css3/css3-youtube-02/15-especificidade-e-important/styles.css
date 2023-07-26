@@ -1,0 +1,28 @@
+/*
+    Especificidade
+        - Regra aplicada em id sobrepoe as regras aplicadas em classes ou em tag
+        - Regra aplicada em classes sobrepõe regras aplicadas em tag
+*/
+
+h2{
+    color: red;                     /* Cor do texto */
+}
+
+.titulo{
+    color: green;                   /* Cor do texto */
+}
+
+#meu-titulo-preferido{
+    color: blue;                    /* Cor do texto */
+}
+
+/* 
+    Important
+    - Sobre qualquer estilização
+    - Não recomendado, pois é mais complicado para dar manutenção
+    - Evitar ao máximo de se utilizar desse recurso
+*/
+
+h2{
+    color: purple !important;
+}

@@ -1,0 +1,22 @@
+/*
+    HTML
+    - Linguagem de Marcação de Hipertexto
+    - Constrói a estrutura ("Esquelo do site")
+    - Baseado em tags
+
+    CSS
+    - Linguagem de Estilização
+    - Acrônimo para Cascading Style Sheets (Folha de estilo em cascata)
+    - Define a parte estética das páginas web
+    - Efeito Cascata - Possibilita colocar várias folhas de estilos e uma sobrepor o estilo 
+    da outro 
+    - Frequentemente utilizado junto com o HTML
+    - Em alguns aspectos é mais avançado que o HTML
+    - Possibilita posicionar elementos, criar animações e reproduzir um layout na web
+    - Executada diretamente do navegador, não precisando de setup
+    - Boa curva de aprendizagem
+    - Escolher a tag por meio do nome, classe ou id
+    - Desenvolvido pela W3C em 1996 servindo com um complemento ao HTML para adicionar melhorais na
+    estilização
+    - Funciona através de arquivo cuja extensão é do tipo '.css'
+*/

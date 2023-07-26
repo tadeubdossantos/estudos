@@ -1,0 +1,22 @@
+/*
+    Links em Botões
+    
+*/
+
+.btn{
+    background-color: #34ae43;      /* Cor de fundo */
+    border: 3px solid #234966;      /* Espessura, tipo e cor da borda */
+    border-radius: 5px;             /* Raio na borda */
+    color: #FFF;                    /* Cor da fonte de texto */
+    text-decoration: none;          /* Eliminar o underline */
+    display: block;                 /* tag em bloco, ou seja, vai ocupar toda a linha onde se encontra */
+    width: 120px;                    /* Dimensão de largura */
+    padding: 12px 7px;               /* Espaçamento interno de 12px em cima e em baixo e 7px dos lados */
+    text-align: center;              /* Alinhamento de texto ao centro */
+    margin: 20px;                    /* Margem ao redor do elemento */
+    transition: 0.5s;                /* Para ocorrer evento de hover mais suave */    
+}
+
+.btn:hover{                             /* Regra a ser aplicada ao evento de passar o mouse */
+    background-color: #234966;
+}

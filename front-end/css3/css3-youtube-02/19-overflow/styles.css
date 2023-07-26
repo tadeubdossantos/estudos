@@ -1,0 +1,31 @@
+div{
+	 background:rgb(173, 173, 173);
+	 color:black;
+	 height: 50px;
+	 border:1px solid red;
+}
+
+.exemplo-1{
+	overflow:visible;	/*Propriedade default; o tamanho da div acompanha o tamanho do conteúdo*/
+}
+
+.exemplo-2{
+	overflow: hidden; 	/*somente exibe o contéudo que cabe na div, o contéudo mais (sobrando) é ocultado */
+
+}
+
+.exemplo-3{
+	overflow: scroll;	/*exibe uma barra lateral*/
+}
+
+.exemplo-4{			
+	overflow: auto;		/*se o contéudo for maior que o elemento então é criado scroll */
+}
+
+body{
+	width:2000px;
+	height: 5000px;
+	overflow-x:hidden;	/*Remove barra horizontal*/
+	overflow-y: hidden;	/*Remove a barra lateral*/
+}
+

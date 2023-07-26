@@ -1,0 +1,12 @@
+.container{
+	border:1px solid black;
+	overflow: auto;			/*a altura do container vai seguir o tamanho do contéudo, 
+	mesmo a imagem sendo float (está fora do fluxo */
+}
+
+.container img{
+	float:left;				/*imagem se posiciona a esquerda e fora do fluxo*/
+	margin-right: 20px;		/*mesmo fora do fluxo a margin pode ser aplicada*/
+	margin-bottom:20px;		/*mesmo fora do fluxo a margin pode ser aplicada*/
+}
+

@@ -1,0 +1,17 @@
+- Primeiros Procedimentos antes de começar o curso
+
+1º Passo: Instale o "VS Code";
+2º Passo: Instale a extensão "Liver Server"; 
+3º Passo: Para vizualizar o arquivo HTML no Browser vá neste arquivo no "VS Code", clique com o botão direito sobre ele e escolha a opção "Open with Live Server";
+4º Passo: Agora é só utilizar;
+
+- Outra ferramenta de desenvolvimento, alternativo, que podemos estar utilizando é a "repl.it"
+    * repl.it - permite compilar o código online sem a necessidade de instalar nada no PC;
+    1º Passo - Entre no site;
+    2º Passo - Se inscreva; permite entrar com o Google, Github e Facebook;
+    3º Passo - Com o ambiente já aberto clique em "new repl" localizado ao lado direito acima; 
+    4º Passo - Em "Language" escolha "JavaScript", no campo ao lado dê o nome no projeto e clique no botão "Create Repl";
+    5º Passo - Será aberto a tela do projeto;
+    6º Passo - Agora é só utilizar;
+
+Fonte: https://www.youtube.com/watch?v=i6Oi-YtXnAU&t=10321s

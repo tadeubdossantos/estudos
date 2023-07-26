@@ -1,0 +1,19 @@
+/* 
+    Cores
+    - Nome da cor
+    - Hexadecimal - números e letras (de 0 à 9, de A à F e 6 algarismos); mais utilizado !!!
+    - RGB - aceita 3 valores; aceita valores de 0 a 255;
+*/
+
+.nome-da-cor{
+    color:pink;     /* Cor do texto */
+}
+
+.hexa{
+    color:#324597;              /* Cor do texto em hexadecimal */   
+    background-color: #333;     /* Cor do fundo do parágrafo (Obs: quando os 3 primeiros algarismos são iguais, todo o restante é igual */
+}
+
+.rgb{
+    color: rgb(100, 95, 44);    /* Cor do texto em rgb*/
+}

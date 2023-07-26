@@ -1,0 +1,39 @@
+
+.elemento-bloco{
+	border:1px solid red;
+}
+
+.elemento-inline{
+	border:1px solid blue;
+}
+
+.elemento2-inline{
+	background: yellow;
+}
+
+.azul{
+	background:blue;
+}
+
+.vermelho{
+	background:red;
+}
+
+.verde{
+	background:green;
+}
+
+.amarelo{
+	background:yellow;
+}
+
+.div-bloco-linha{
+	width: 24%;
+	height: 150px;
+	display:inline-block;
+}
+
+li{
+	display:inline;
+}
+

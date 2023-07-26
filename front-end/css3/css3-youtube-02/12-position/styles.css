@@ -1,0 +1,95 @@
+/*
+    Position
+        - Static: posição padrão dos elementos; segue o fluxo do html conforme a sequencia lógica; posição default dos elementos
+        - Relative: podemos alterar sua posição através das propriedades de direções; pode sobrepor sobre outros elementos (não indicado !!!)
+        - Absolute: pode ser referenciar pela tela ou por algum elemento; elemento absoluto pai de um elemento relativo, a referencia vai ser o relativo (pai)
+        - Fixed: posição que fixa o elemento na tela
+        - Sticky: mistura de fixed com relative    
+*/
+
+body{
+    height: 1000px;
+}
+
+div{
+    height: 50px;                   /* Altura */
+    background-color: #ccc;       /* Cor de fundo */
+    border: 1px solid #222;       /* Espessura, tipo e cor da borda */
+    padding: 10px;                  /* Espaçamento interno em todos os lados */
+}
+
+.conteudo{
+    background: white;
+}
+
+.static{
+    text-align: right;
+}
+
+/* Position Relative */
+.relative{
+    background-color: #321;             /* Cor de fundo */
+    position: relative;                 /* Posição relativa */
+    color: #fff;                        /* Cor do texto */
+    top:50px;                           /* Adiciona espaçamento no topo do seu lugar original*/
+    left:20px;                          /* Adiciona espaçamento do lado esquerdo do seu lugar original*/
+}
+
+.relative-alterada{
+    top: 20px;                            /* Posição ocupado ao topo */
+    left: 20px;                           /* Posição ocupada a esquerda */
+}
+
+/* Position Absolute */
+.absolute{
+    height: 25px;                       /* Altura */
+    width: 70px;                        /* Dimensão da largura */
+    background-color: #914;             /* Cor de fundo */
+    position: absolute;                 /* Posição absoluta */
+    top: 20px;                          /* Adiciona espaçamento no topo do seu lugar original */
+    left: 40px;                         /* Adiciona espaçamento do lado esquero do seu lugar original */
+
+}
+
+/* Position Fixed */
+.fixed{
+    width: 50px;                        /* Largura */
+    height: 50px;                       /* Altura */
+    background-color: #528;           /* Cor de fundo */
+    position:fixed;                     /* Posição fixa */    
+    top:10px;                           /* Posição ocupada no topo */
+    left:100px;                         /* Posição ocupada a esquerda */
+}
+
+/* Positio Sticky */
+.sticky{
+    height: 50px;                       /* Altura */
+    width: 100px;                       /* Largura */
+    top:10px;                           /* Posição ocupada no topo */
+    background-color: #881;           /* Cor de fundo do elemento */
+    position: sticky;                   /* Posição sticky */
+}
+
+.barra{
+    border:1px solid black;
+    background: orange;
+    margin;0;
+    padding;0;
+    position:fixed;
+    width: 100%;
+}
+
+.barra h1{
+    color:white;
+    font-weight: bold;
+    font-family: 'Ubuntu';
+    margin:0;
+    padding:0;    
+    text-align: center;    
+}
+
+.content{
+    height: 2000px;
+    border:0;
+    background: white;    
+}

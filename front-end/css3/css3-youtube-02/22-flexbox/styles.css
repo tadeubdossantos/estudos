@@ -1,0 +1,15 @@
+
+.flex-pai{
+	background: blue;
+	display:flex;				/*Permite que os elementos que estão dentro fiquem dispostos 
+								um do lado do outro*/
+	flex-direction: column;	/*Define a direção dos elementos que estarão dentro*/
+}
+
+.flex-pai div{
+	background: white;
+	border:1px solid black;
+	margin:20px;
+	padding:30px;
+	text-align: center;
+}

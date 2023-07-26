@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>17- Display</title>
+    <link rel="stylesheet" href="style.css"/>
+    </head>
+<body>
+    <!-- 
+        Display - define como um elemento será exibido; cada elemento já tem um valor de exibição padrão de display dependendo da tag; 
+            
+            → Block ou Bloco - inicia no ínicio da linha e ocupa toda o espaço da linha, se tornando um bloco completo; 
+            
+            → Inline ou em linha - não inicia em uma nova linha e não ocupa toda a extensão na linha 
+            que se encontra; ocupando somente o espaço que o conteúdo ocupa; se comporta igual texto;
+            
+            → None - elemento é removido; usado para deixar as páginas dinâmicas no javascript;
+            Obs: se quiser ao invés de remover um elementos somente deixar ele invisível mas ocupando o seu local é necessário usar a propriedade 'visibility:hidden';
+            
+            → Inline-block - comportanto como inline de um do lado do outro ao mesmo tempo unido com o comportamento de bloco ('meio termo'); display do tipo inline não conseguimos aplicar largura e altura, pois o que determina sua largura e altura é o tamanho do conteúdo; já o do tipo block já conseguimos aplicar propredades de largura e altura; mescla de comportamento em linha com o comportamento em bloco; herda o comportamento do inline de ficar um do lado do outro e também herda a característica do em block que é de poder especificar a largura e a altura;
+    -->
+
+    <!-- Exemplos de elementos com display do tipo block -->
+    <div class="elemento-bloco">Div</div>
+    <h1 class="elemento-bloco">H1</h1>
+    <p class="elemento-bloco">Parágrafo</p>
+    <form class="elemento-bloco">Form</form>
+    <header class="elemento-bloco">Header</header>
+    <footer class="elemento-bloco">Footer</footer>
+    <section class="elemento-bloco">Section</section>
+
+    <!-- Exemplos de elementos com display to tipo inline -->
+    <a href="#" class="elemento-inline">Link</a>
+    <a href="#" class="elemento-inline">Link 2</a>
+    <a href="#" class="elemento-inline">Link 3</a>
+    
+    <!-- Exemplo de elemento do tipo display inline dentro de um que é tipo display block -->
+    <p href="#" class="elemento-inline">Parágrafo<span class="elemento2-inline">Span</span></p>
+
+    <!-- Exemplo de elemento que foi aplicado um display none -->
+    <p style="display:none;">Parágrafo que está com display none aplicado</p>
+
+    <!-- Exemplo de utilidade do display inline numa lista -->
+    <ul>
+        <li class="azul">1º item da lista</li>
+        <li class="vermelho">2º item da lista</li>
+        <li class="verde">3º item da lista</li>
+        <li class="amarelo">4º item da lista</li>
+    </ul>
+
+    <!-- Exemplo de utilização de display inline-block -->
+    <div class="azul div-bloco-linha">Conteúdo</div>
+    <div class="vermelho div-bloco-linha">Conteúdo</div>
+    <div class="verde div-bloco-linha">Conteúdo</div>
+    <div class="amarelo div-bloco-linha" style="visibility: hidden;">Conteúdo</div>
+
+</body>
+</html>

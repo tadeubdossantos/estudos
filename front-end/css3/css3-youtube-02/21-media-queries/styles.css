@@ -1,0 +1,54 @@
+h2{
+	font-size:14px;
+	color:white;
+}
+
+/*
+	→ Para cada dispositivo podemos definir uma determinada regra
+	→ Desenvolvemos o site para um determinado dispositivo e depois vamos adequando par outros
+	dispositivos menores
+*/
+
+/*Smartphones (600 para baixo) */
+@media only screen and (max-width: 600px){
+	body{
+		background: blue;
+	}
+}
+
+/*maiores, mas ainda pequenos  */
+@media only screen and (min-width: 600px){
+	body{
+		background: green;
+	}
+}
+
+/*Dispositivos médios (Tablets deitados, 768px  */
+@media only screen and (min-width: 768px){
+	body{
+		background:yellow;
+	}
+}
+
+/*Dispositivos largos (laptops/desktops) */
+@media only screen and (min-width: 992px){
+	body{
+		background:red;		
+	}
+	/*Alterar o tamanho da fonte*/
+	h2{
+		font-size:22px;
+	}
+
+	.exemplo{
+		display:none;
+	}
+}
+
+/*Super largos (Telas maioes laptops, desktops e até )*/
+@media only screen and (min-width: 1200px){
+	body{
+		background:violet ;
+	}
+}
+

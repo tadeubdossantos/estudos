@@ -1,0 +1,26 @@
+/*
+    Formas de adicionar CSS
+    - Inline ou em linha - adiciona o css diretamente na tag (não indicado !!!), pois não 
+    é pratico devido ao seu funcionamento ser restritivo somente para a tag aplicada
+    
+    - Internal CSS - fica no head da página (reaproveita estilo somente em uma página); não é
+    ainda o modo mais produtivo para se trabalhar com css;
+    
+    - External CSS - fica em um arquivo externo (forma mais indicada e separação de responsabilidade),
+    permitindo que varias páginas assumem o mesmo comportamento de estilização; melhor para gerenciamento,
+    pois todas as páginas que estiverem utilizando uma mesma estilização basta alterar somente
+    em local para ajustar todas as páginas;
+
+    - Efeito Cascata - A prioridade de estilização vai ser para o css aplicado diretamente na tag, caso não tenha
+    nenhum css aplicado na tag então a prioridade vai ser aplicado ao css interno, se este não 
+    tiver aí será dado prioridade para o css externo
+*/
+
+/* Exemplo de External CSS */
+body{
+    padding: 20px;
+}
+
+p{
+    color: green;
+}
