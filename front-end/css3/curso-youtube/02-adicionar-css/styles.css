@@ -1,0 +1,17 @@
+/*
+    Formas de adicionar CSS
+    - Inline - adiciona o css diretamente na tag (não indicado !!!)
+    - Internal CSS - fica no head da página (reaproveita estilo somente em uma página)
+    - External CSS - fica em um arquivo externo (forma mais indicada e separação de responsabilidade)
+*/
+
+/*
+    Exemplo de External CSS
+*/
+body{
+    padding: 20px;
+}
+
+p{
+    color: green;
+}

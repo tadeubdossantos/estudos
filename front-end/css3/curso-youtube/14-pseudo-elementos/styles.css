@@ -1,0 +1,11 @@
+/*
+    Pseudo Elementos
+*/
+
+.primeira-letra::first-letter{              /* Regra aplicada somente para a primeira letra */
+    font-size: 40px;                        /* Tamanho do texto */
+    color: blue;                          /* Cor do texto */
+    background-color: red;                /* Cor de fundo */
+    padding: 4px;                           /* Espaçamento interno ao redor */
+
+}      

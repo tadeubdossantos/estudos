@@ -1,0 +1,18 @@
+/*
+    Box Model
+    - Representa uma caixinha que possui:
+        - Espaçamento (Padding)
+        - Borda (Border)
+        - Margem (Margin)
+        - Largura (Width)
+        - Altura (Height)
+
+*/
+
+.box-model{
+    width: 200px;               /* Definição da largura */
+    height: 100px;              /* Definição da altura */
+    border: 1px solid blue;   /* Intensidade da borda, estilo e cor */
+    padding: 20px;              /* Espaçamento em todas as direções do elemento*/
+    margin: 20px;               /* Margem em todas as direções do elemento */
+}

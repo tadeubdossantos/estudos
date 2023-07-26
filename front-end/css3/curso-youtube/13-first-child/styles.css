@@ -1,0 +1,12 @@
+/*
+    First-child
+    - Aplica-se a regra somente no primeiro elemento filho
+*/
+
+/* Pseudo seletor / Pseudo class */
+.primeiro-elemento p:first-child{
+    color:purple;                           /* Cor do texto */
+    font-weight: bold;                        /* Intensidade da fonte */
+    
+
+}

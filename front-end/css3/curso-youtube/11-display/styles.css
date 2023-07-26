@@ -1,0 +1,26 @@
+/*
+    Display
+    - Altera as posições do bloco que forma um layout
+    - Valor padrão na maioria dos elementos é block ou inline
+    - Tipos:
+        - Inline - ocupa somente o tamanho total de seu conteúdo; elementos dispostos um ao lado do outro
+        - Block - elementos ficam disposto um abaixo do outro; ocupa 100% da largura        
+        - Inline-block - conteiner de bloco de nível inline; o interior é formatado como caixa de nível inline
+        - None - esconde o elemento como se não existisse mas ainda continua ocupando espaço
+*/
+
+.inline{
+    width: 50px;                /* Largura */
+    height: 50px;               /* ALtura */
+    background-color: teal;   /* Cor de fundo do elemento */
+    margin: 5px;                /* Margem ao redor do elemento */  
+
+}
+
+.bloco{
+    display: block;
+}
+
+.hidden{
+    display: none;              /* Esconde o elemento */
+}

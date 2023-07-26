@@ -1,0 +1,44 @@
+<!-- O HTML5 quando foi desenvolvido ela já esta sendo projetado para uso em smarthphones, por conta disso criou-se campos que ao selecioná-los em disposivos móveis exibia um teclado correspondente à preencher esse tipo de campo, como por exemplo, campo de informar o telefone na qual o teclado correspondente a exibir seria o númerico -->
+
+<!-- Uso do "Tel" para telfone, "email" para e-mail e "url" para sites em type de cada campo -->
+
+<!-- Esses campos anteriores eles são válidados de acordo com seu tipo -->
+
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title>Curso HTML5 Essencial</title>
+        
+        <link href="css/estilo.css" rel="stylesheet" media="screen">
+    </head>
+
+    <body>
+        
+        <h2>Formulário</h2>
+        
+        <form action="destino.html" method="post">
+            
+            <!-- Campo de Nome -->
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" size="30" maxlength="100">
+            
+            <!-- OBS: "size" definie o tamanho do campo / "maxlenght" define o tamanho de caracteres do campo -->
+            
+            <!-- Campo de Telefone -->
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" size="30" maxlength="50">
+            
+            <!-- Campo de E-mail -->
+            <labe for="email">E-mail:</labe>
+            <input type="email" name="email" id="email" size="30" maxlength="50">
+            
+            <!-- Campo de Web Site -->
+            <labe for="website">Web Site:</labe>
+            <input type="url" name="website" id="website" size="30" maxlength="50">
+            
+            <input type="submit" value="Enviar" name="enviar" id="enviar">
+        </form>
+    
+    </body>
+</html>

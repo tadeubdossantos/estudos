@@ -1,0 +1,44 @@
+<!-- Campo de Número é utilizado para escolhermos um número entre um intervaldo de números pré-definidos no campo -->
+
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title>Curso HTML5 Essencial</title>
+        
+        <link href="css/estilo.css" rel="stylesheet" media="screen">
+    </head>
+
+    <body>
+        
+        <h2>Formulário</h2>
+        
+        <form action="destino.html" method="post">
+            
+            <!-- Campo de Nome -->
+            <!-- <label for="nome">Nome:</label> -->
+            <input type="text" name="nome" id="nome" size="30" maxlength="100" required placeholder="Insira o nome" autofocus>
+            
+            <!-- OBS: "size" definie o tamanho do campo / "maxlenght" define o tamanho de caracteres do campo -->
+            
+            <!-- Campo de Telefone -->
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" size="30" maxlength="50">
+            
+            <!-- Campo de E-mail -->
+            <labe for="email">E-mail:</labe>
+            <input type="email" name="email" id="email" size="30" maxlength="50" required>
+            
+            <!-- Campo de Web Site -->
+            <labe for="website">Web Site:</labe>
+            <input type="url" name="website" id="website" size="30" maxlength="50">
+            
+            <!-- Campo de Quantidade de filhos -->
+            <label for="filhos">Quantidade de Filhos</label>
+            <input type="number" name="filhos" id="filhos" min="1" max="5" value="1">
+            
+            <input type="submit" value="Enviar" name="enviar" id="enviar">
+        </form>
+    
+    </body>
+</html>

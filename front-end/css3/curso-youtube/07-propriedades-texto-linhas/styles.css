@@ -1,0 +1,25 @@
+/*
+    Propriedades de Texto
+    - Alinhamento: Center, Right, Left, Justify
+    - Maísculas (uppercase) ou Minúsculas (lowercase)
+    - Espaçamento
+
+*/
+
+.alinhamento{
+    text-align: center;             /*Alinhamento de Texto  */
+}
+
+.transform-maiscula{
+    text-transform: lowercase;      /* Letras minúsculas */
+}
+
+.transform-maiscula{
+    text-transform: uppercase;      /* Letras minísculas */
+}
+
+.espacamento-texto{
+    width: 150px;                   /* Dimensão que o parágrafo vai ocupar */
+    line-height: 40px;              /* Espaçamento entre um linha ou outra */
+    letter-spacing: 8px;            /* Espaçamento entre uma letra e outra */
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+	<name>Smartsupp Live Chat</name>
+	<code>smartsupp</code>
+	<version>1.0</version>
+	<author>Kurzor</author>
+	<link>http://www.smartsupp.com</link>
+	<file path="catalog/view/theme/default/template/common/footer.twig">
+		<operation>
+			<search><![CDATA[</footer>]]></search>
+			<add position="before"><![CDATA[
+			{{ smartSupp }}
+            ]]></add>
+		</operation>
+	</file>
+	<file path="catalog/controller/common/footer.php">
+		<operation>
+			<search><![CDATA[
+			return $this->load->view('common/footer', $data);
+            ]]></search>
+			<add position="before"><![CDATA[
+			$data['smartSupp'] = $this->load->controller('extension/module/smartsupp');
+            ]]></add>
+		</operation>
+	</file>
+</modification>

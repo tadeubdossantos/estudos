@@ -1,0 +1,27 @@
+<!-- Range é um recurso em que você movimenta um componente de formulário na horizontal e cada local que ela ficar representará um valor diferente -->
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Curso HTML5 Essencial</title>
+        <script>
+        
+            //Função que obtem o valor do campo do formulário para exibir ao usuário
+            function mostrarResultado(){
+                document.getElementById("resultado").innerHTML = document.getElementById("filhos").value;
+            }
+        
+        </script>
+    </head>
+
+    <body>
+        <form action="index.html" method="post">
+            <!-- Quantidade Filhos -->
+            <label for="qtd_filhos">Quantidade de Filhos:</label>
+            <!-- Ao realizar mudança no campo de formulário a função anterior é executada -->
+            <input type="range" id="filhos" min="0" max="5" value="0" onchange="mostrarResultado()">
+            <span id="resultado">0</span>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,112 @@
+/* 
+    Resetar algumas propriedades 
+    - Padroniza as configurações iniciais para o projeto ter o mesmo resultaod em navegadores distintos
+*/
+*{
+    padding: 0;                             /* Espaçamento interno ao redor */
+    margin: 0;                              /* Margin ao redor */
+    box-sizing: border-box;                 /* Elementos que vai respeitar a largura determinada */
+    font-family: Helvetica;                 /* Tipo de fonte */
+}
+
+/* Cabeçalho */
+header{
+    background-color: #3db36d;              /* Cor de fundo */
+    color: #fff;                            /* Cor do texto */
+    padding: 15px;                            /* Espaçamento interno ao redor */
+    text-align: center;                       /* Alinhamento do texto */
+    border-bottom: 3px solid #0f642f;       /* Cor da borda de baixo */
+}
+
+/* Grid de Carros */
+.container{
+    background-color: #eee;                 /* Cor de fundo */
+    min-height: 60vh;                         /* Altura mínima de 60% da página */
+    padding: 50px;                            /* Espaçamento interno */
+}
+
+.cars-container{
+    max-width: 1200px;                          /* Largura máxima */
+    margin: 0 auto;                             /* Centraliza o conteúdo */
+}
+
+.card{
+    width:31%;                                  /* Dimensão da largura */
+    display: inline-block;                      /* Inline-block */
+    margin: 1% 1%;                              /* Margem no topo e nos lados */
+    padding: 15px;                              /* Espaçamento interno ao redor */
+}
+
+.car-image{
+    height: 300px;                              /* Altura da imagem */
+    width: 100%;                                /* Largura da imagem */
+    margin-bottom: 10px;                        /* Margem no topo */
+    background-position: center;                /* Centor da imagem no meio*/    
+    background-size: cover;                     /* Mostra o máximo possível da imagem na área */
+}
+
+#img-1{
+    background-image: url('../img/bugatti-01.jpg');     /* Imagem de fundo */
+}
+
+#img-2{
+    background-image: url('../img/bugatti-02.jpg');     /* Imagem de fundo */
+}
+
+#img-3{
+    background-image: url('../img/bugatti-03.jpg');     /* Imagem de fundo */
+}
+
+#img-4{
+    background-image: url('../img/bugatti-04.jpg');     /* Imagem de fundo */
+}
+
+#img-5{
+    background-image: url('../img/bugatti-05.jpg');     /* Imagem de fundo */
+}   
+
+#img-6{
+    background-image: url('../img/bugatti-06.jpg');     /* Imagem de fundo */
+}
+
+h3{
+    margin-bottom: 10px;                        /* Borda de baixo */
+    color: #3db36b;                           /* Cor do texto */
+    font-size: 24px;                            /* Tamanho do texto */
+    border-left: 5px solid #0f642f;           /* Borda ao lado esquerdo */
+    padding-left: 7px;                          /* Espaçamento interno ao lado esquerdo */
+}
+
+.card p{
+    margin-bottom: 10px;                        /* Margem abaixo */
+}
+
+.bold{
+    font-weight: bold;                          /* Intesidade da fonte */
+}
+
+.btn{
+    display: block;                             /* Elemento em block */
+    width: 100%;                                /* Dimensão da largura */
+    text-align: center;                         /* Texto centralizado */
+    text-transform: uppercase;                  /* Letra em maísculos */
+    text-decoration: none;                      /* Elimina o sublinhado */
+    background-color: #3db36b;                /* Cor de fundo */
+    color: #fff;                              /* Cor do texto */
+    padding: 15px;                              /* Espaçamento interno */
+    border-radius: 5px;                         /* Arredeondar todos os cantos da borda */
+    transition: .5s;                            /* Efeito hover mais suave */
+}
+
+.btn:hover{                                   /* Regra aplicada ao passar o mouse sobre o elemento */
+    background-color: #0f642f;               /* Cor de fundo */
+}
+
+/* Footer */
+footer{
+    background-color: #3db36b;              /* Cor de fundo */
+    color: #fff;                            /* Cor de texto */
+    border-top: 3px solid #0f642f;          /* Borda no topo */
+    text-align: center;                       /* Alinhamento do texto */
+    padding: 80px;                            /* Espaçamento interno ao redor */
+}

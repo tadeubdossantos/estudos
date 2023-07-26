@@ -1,0 +1,50 @@
+/*
+    Fontes
+    - Tipos:
+        - Serifada: fontes encontradas em jornais e livros
+        - Sem Serifa: mais utilizado; mais padronizada na web
+        - Mono Espaçada: toda letra tem a mesma largura; todas as letras possuem a mesma largura
+    - É possivel baixar modelos de fontes na internet
+    - Propriedade "size" para estabelecer tamanho
+    - Propriedade "weight" 
+*/
+
+body{
+    padding:20px;               /* Espaçamento Interno */
+    padding-bottom: 500px;      /* Espaçamento em baixo do corpo da págian */
+}
+
+p{
+    font-size: 30px;                /* Definição do tamanho da fonte aplicado a todos os parágrafos*/
+    border-bottom: 1px solid red; /* Aplicado borda em baixo dos parágrafos */
+}
+
+.serifado{
+    font-family: Georgia;       /* Aplicado um tipo de fonte */ 
+}
+
+.sem-serifa{
+    font-family: Helvetica;     /* Aplicado um tipo de fonte */
+}
+
+.mono-espacada{
+    font-family: 'Courier New';/* Aplicado um tipo de fonte (Obs: quando a fonte tem mais uma palavra deve ser aplicado aspas simples para o navegador interpretá-lo */
+}
+
+/* Propriedades Size e Weigth */
+.tamanho-fonte-grande{
+    font-size: 64px;            /* Definição do tamanho da fonte*/
+}
+
+.tamanho-fonte.pequena{
+    font-size: 12px;            /* Definição do tamanho da fonte */
+}
+
+.peso-fonte{
+    font-weight: 700;           /* Definição da intensidade dos caracteres (valores vão de 100 a 900)
+}
+
+/* Propriedade font-style */
+.texto-italico{
+    font-style: italic;
+}

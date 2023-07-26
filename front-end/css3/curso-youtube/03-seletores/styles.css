@@ -1,0 +1,37 @@
+/*
+    Seletores
+    - Formas para selecionar elementos:
+        - Tags
+        - Classes - afeta mais elementos com uma regra (mesma regra para elementos diferentes)
+        - Id - afeta somente um elemento (regra somente em um único elemento)
+*/
+
+/* Estilização de id */
+.meu-paragrafo{
+    background-color: black;    /* Fundo do Parágrfo*/
+    color:red;                  /* Cor do Texto*/
+}
+
+/* Estilização da classe */
+#titulo-principal{
+    background-color: yellow;   /* Fundo do Parágrafo*/
+    color:black;                /* Cor do Texto*/
+    padding: 10px;                /* Espaçamento Interno*/
+    font-family: Helvetica;       /* Tipo de Fonte*/
+}
+
+/* 
+    Estilização para todos os elementos 
+    - Permite resetar a configuração de todos os elementos de uma vez somente ao invés de aplicar um a um
+ */
+*{
+    font-family: Arial;         /* Tipo de fonte aplicado a todos os textos da página */
+}
+
+/*
+    Lista
+    - Seleciona mais um elemento com o mesmo seletor
+*/
+p, h1{
+    border-bottom: 2px solid red;   /*Borda em baixo aplicado nos parágrafos e títulos */
+}
