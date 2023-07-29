@@ -1,1 +1,0 @@
-O Smartsupp não funcionou, portanto seria bom excluir essa extensão para o sistema não conter códigos desnecessários.

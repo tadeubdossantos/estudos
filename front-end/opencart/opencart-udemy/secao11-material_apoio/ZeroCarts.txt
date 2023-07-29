@@ -1,2 +1,0 @@
-- Para retirar "Designed by ZEROCARTS" do footer basta excluir o arquivo: 
-"catalog\view\theme\zMaxcart\template\common\footer.twing"
